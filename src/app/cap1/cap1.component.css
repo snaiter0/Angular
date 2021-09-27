@@ -1,0 +1,130 @@
+/*
+estilos da pagina index.html
+*/
+.p1 {
+    font-size: 20px;
+    padding: 15px;
+    color: rgb(206, 206, 206);
+    text-shadow: 1px 1px black;
+}
+.center{
+    text-align: center;
+}
+
+
+.h2 {
+    font-size: 30px;
+    color: white;  
+}
+
+.center-img{
+    align-items: center;
+    justify-content: center;
+}
+
+.justify{
+   text-align: justify;
+}
+.container-end {
+    flex-flow: row;
+    justify-content: end;
+    align-items: end;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li{
+    display: inline;
+    color: white;
+    padding: 25px;
+    text-shadow: 1px 1px rgb(184, 8, 8);
+    
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#menu li a:hover{
+    color:gray
+}
+
+.br-50 {
+    border-radius: 50%;
+}
+
+.wh-300{
+    width: 300px;
+    height: 300px;
+}
+
+.p30
+{
+    padding: 30px;
+}
+
+.container-start
+{
+    align-items: flex-start;
+}
+
+.tm-social
+{
+    width: 50px;
+    height: 50px;
+
+}
+
+.pd-50{
+    padding: 50px;
+}
+
+.Text-Shadow
+{
+    text-shadow: 1px 1px rgb(184, 8, 8);
+}
+
+.object-Shadow{
+    box-shadow: 5px 5px #888888;
+}
+
+
+.tm-botton{
+    padding: 25px;
+}
+
+.ml-50{
+    margin-left: 50px;
+}
+
+.mb-bottom{
+
+    margin-bottom: 50px;
+}
+
+.p0{
+    font-size: 15px;
+    color: white;
+}
+.colorWhite{
+    color:white
+}
+
+#opacity05{
+    opacity: 0.3;
+}
+#opacity10{
+    opacity: 0.3;
+}
+
+
+/*
+estilos da pagina contatos.html
+*/
