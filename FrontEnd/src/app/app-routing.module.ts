@@ -12,6 +12,8 @@ import { Cap8Component } from './cap8/cap8.component';
 import { Cap9Component } from './cap9/cap9.component';
 import { EntrarComponent } from './entrar/entrar.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { Tema } from './model/Tema';
+import { TemaComponent } from './tema/tema.component';
 
 const routes: Routes = [
   {path:'', redirectTo:'entrar', pathMatch:'full'},
@@ -26,7 +28,8 @@ const routes: Routes = [
   {path:'cap9',component:Cap9Component},
   {path:'entrar',component:EntrarComponent},
   {path:'cadastrar',component:CadastrarComponent},
-  {path:'inicio', component:InicioComponent}
+  {path:'inicio', component:InicioComponent},
+  {path:'tema',component:TemaComponent},
 ];
 
 @NgModule({
