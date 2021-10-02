@@ -20,15 +20,13 @@ export class MenuComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  
   sair()
   {
-  
    this.router.navigate(['/entrar'])
    environment.token=''
    environment.usuario=''
    environment.foto=''
    environment.idUsuario= 0
-  
   }
 }
