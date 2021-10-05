@@ -5,3 +5,16 @@
 .fs-18{
     font-size: 18pt;
 }
+
+
+.fs-30{
+    font-size: 18pt;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.Shadow1 {
+    text-shadow: 1px 1px red;
+  }
