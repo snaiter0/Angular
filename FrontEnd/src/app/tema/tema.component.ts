@@ -26,7 +26,6 @@ export class TemaComponent implements OnInit {
   this.findAllTemas()
 }
 
-
 findAllTemas(){
 this.temaService.getAllTema().subscribe((resp: Tema[])=> {
   this.listaTemas = resp
@@ -36,9 +35,10 @@ this.temaService.getAllTema().subscribe((resp: Tema[])=> {
 cadastrar(){
 this.temaService.postTema(this.tema).subscribe((resp: Tema)=>{this.tema = resp 
 this.tema = new Tema()
-console.log()
 alert('Tema cadastrado com sucesso!')})
 this.findAllTemas()
 }
+
+
 
 }

@@ -10,6 +10,8 @@ import { Cap6Component } from './cap6/cap6.component';
 import { Cap7Component } from './cap7/cap7.component';
 import { Cap8Component } from './cap8/cap8.component';
 import { Cap9Component } from './cap9/cap9.component';
+import { TemaDeleteComponent } from './delete/tema-delete/tema-delete.component';
+import { TemaEditComponent } from './edit/tema-edit/tema-edit.component';
 import { EntrarComponent } from './entrar/entrar.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { Tema } from './model/Tema';
@@ -30,6 +32,8 @@ const routes: Routes = [
   {path:'cadastrar',component:CadastrarComponent},
   {path:'inicio', component:InicioComponent},
   {path:'tema',component:TemaComponent},
+  {path: 'tema-edit/:id', component: TemaEditComponent},
+  {path: 'tema-delete/:id', component: TemaDeleteComponent}
 ];
 
 @NgModule({

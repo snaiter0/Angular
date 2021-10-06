@@ -1,4 +1,7 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { environment } from 'src/environments/environment.prod';
 
 @Component({
   selector: 'app-cap7',
@@ -7,9 +10,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Cap7Component implements OnInit {
 
-  constructor() { }
+  constructor(
+    private router: Router,
+    private http: HttpClient
+  ) { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    window.scroll(0,0)
+
+    if(environment.token =='')
+    this.router.navigate(['/entrar'])
   }
 
-}
+} 

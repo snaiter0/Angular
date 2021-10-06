@@ -25,6 +25,8 @@ import { Cap9Component } from './cap9/cap9.component';
 import { BarraDeNavegacaoComponent } from './Carousel/barra-de-navegacao.component';
 import { InicioComponent } from './inicio/inicio.component';
 import { TemaComponent } from './tema/tema.component';
+import { TemaEditComponent } from './edit/tema-edit/tema-edit.component';
+import { TemaDeleteComponent } from './delete/tema-delete/tema-delete.component';
 
 
 @NgModule({
@@ -46,7 +48,9 @@ import { TemaComponent } from './tema/tema.component';
     Cap9Component,
     BarraDeNavegacaoComponent,
     InicioComponent,
-    TemaComponent
+    TemaComponent,
+    TemaEditComponent,
+    TemaDeleteComponent
   ],
   imports: [
     BrowserModule,
